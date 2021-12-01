@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    flex-flow: row wrap;
+}
+header #contacto{
+    height: 30%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+header #contacto a{
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+header #contacto a:nth-child(1){
+    margin-left: 10px;
+    background-color: chartreuse;
+
+}
+
+header #sociales{
+    height: 30%;
+    width: 20%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+header #sociales a{
+    color: black;
+    font-size: 20px;
+
+}
+header figure{
+    height: 70%;
+    background-color: black;
+    width: 15%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+
+
+}
+header figure img{
+    height: 60%;
+    margin-top: 25px;
+
+}
+header figure h3{
+    
+}
+header #principal{
+    background-color: black;
+    width: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+header #principal a{
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header #principal a i{
+    order: 1;
+    font-size: 40px;
+    color: green;
+    padding-bottom: 5px;
+    transition: all 1s;
+
+}
+header #principal a:hover i{
+    color: red;
+    
+}
+header #principal a span{
+    order: 2;
+    font-size: 20px;
+    color: white;
+
+}
+main{
+
+
+}
+main #breadcrumb{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+main #breadcrumb h2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border: 0px solid black;
+    color: white;
+    font-size: 30px;
+    
+
+}
+main #breadcrumb nav{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 0px solid black;
+
+}
+main #breadcrumb nav a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+
+}
+main #breadcrumb nav a1:after{
+    content: " > ";
+
+
+}
+main #breadcrumb nav a:last-child{
+    color: black;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+main #breadcrumb nav a1:last-child::after{
+    content: "";
+    
+}
+
+
+main section{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
+main section article{
+    width: 32%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+main section article figure{
+    height: 100px;
+    width: 90%;
+
+
+}
+main section article img{
+    height: 100%;
+
+}
+main section article .envio{
+    width: 30%;
+}
+main section article h3{
+    width: 100%;
+}
+main section article .precio{
+    width: 100%;
+}
+main section article .valoracion{
+    width: 100%;
+
+}
+main section article .opinion{
+    width: 10%;
+}
+main section article .comprar{
+    width: 20%;
+}
+main section article .notas{
+    width: ;
+}

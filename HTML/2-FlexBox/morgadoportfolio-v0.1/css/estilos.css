@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+header {
+    height: 100px;
+    background-color: rgba(0, 255, 0, 0.3);
+}
+header figure {
+    border: 2px solid red;
+    height: 100%;
+    float: left; /* transformo EB --> El */
+    width: 10%;
+}
+
+header figure img{
+    height: 100%;
+}
+
+header div#middle {
+    width: 65%;
+    float: left;
+    background-color: khaki;
+    height: 100%;;
+}
+header div#middle h1 {
+    color:red;
+}
+
+header div#middle nav {
+    background-color: grey;
+}
+
+header div#registro {
+    float: left;
+    width: 25%;
+    background-color: lawngreen;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    height: 465px;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+}

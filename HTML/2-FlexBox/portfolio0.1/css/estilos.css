@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box; Modelo de Cajas Avanzado*/
+}
+
+header{
+    height: 100px;
+    background-color: rgba(0, 255, 0, 0.3)
+
+}
+header figure {
+    border: 0px solid red;
+    height: 100%;
+    float: left;/*transformo EB--> E1*/
+
+}
+header figure img{
+
+}
+div#middle {
+    color: black;
+
+
+}
+div#middle h1{
+    color: red;
+}
+div#middle nav{
+
+}
+header div#middle h1{
+    color: red;
+}
+header div#middle nav{
+    background-color: saddlebrown;
+}
+
+main{
+    height: 650px;
+    background-color: rgba(255, 0, 0, 0.3)
+
+}
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9)
+
+}
+
+

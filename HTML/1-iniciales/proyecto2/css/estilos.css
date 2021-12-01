@@ -1,0 +1,30 @@
+/*regla CSS*/
+h1 {
+    background-color: darkgreen;
+    color: beige;
+    border: 2xp solid black;
+    text-align: right;
+}
+a {
+    border: 2xp solid black
+}
+
+p{
+    color: blueviolet;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 1;
+    text-indent: 30px;
+    margin-bottom: 30px;
+
+    border: 2px solid red
+    
+
+}
