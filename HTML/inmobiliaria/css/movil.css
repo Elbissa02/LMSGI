@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header #top{
+    background-color: #C5DDF4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family: Dosis;
+    height: 100px;
+}
+header #top .iconos{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+header #top .telefono{
+    width: 50%;
+    margin: 20px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header #main{
+    background-color: #C5DDF4;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+header #main img{
+    height: 150px;
+    margin-left: 50px;
+
+}
+header #main .casa{
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+header #main .casa h1{
+    height: 50px;
+}
+
+header #bottom{
+    background-color: #C5DDF4;
+    width: 100%;
+    height: 200px;
+}
+
+header #bottom .menu{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header #bottom .menu .chicago{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 15px;
+    padding: 20px 20px;
+}
+header #bottom .menu .info{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 15px;
+    padding: 20px 20px;
+
+}
+header #bottom .menu .menuu{
+    margin: 15px;
+
+}
+
+header #bottom .menu2{
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+}
+
+
+
+main{
+    background-color: pink;
+    width: 100%;
+    height: 330px;
+}

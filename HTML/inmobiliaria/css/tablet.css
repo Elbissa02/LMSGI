@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    flex-flow: row nowrap;
+    border: 1px solid black;
+}
+
+header #top{
+    width: 650%;
+    border: 1px solid black;
+}
+
+header #top #span{
+    width: 30%;
+    order: 1;
+    border: 1px solid black;
+}
+
+header #top nav#user{
+    width: 40%;
+    order: 2;
+
+}
+
+header #main{
+    border: 1px solid black;
+    width: 650%;
+}
+
+header #bottom{
+    width: 650%;
+}

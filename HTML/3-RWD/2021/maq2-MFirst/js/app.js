@@ -47,6 +47,19 @@ const potencia = (b, e) => {
 console.log (potencia (3,3));
 
 
+const suma10 = () => {
+    let stotal = 0;
+    for (i = 0; i <= 5 ; i++){
+        stotal = stotal + i;
+    }
+    return stotal;
+}
+console.log(sume10( 2 ));
+console.log(suma10( 5 ));
+console.log(suma10( 100));
+
+
+
 
 
 
